@@ -8,5 +8,20 @@ while(i < 6){
     i++;
 }
 
-console.log(`----------------------`)
-for(let p = 0; p <= 10; )
+console.log(`----------------------`);
+for(let p = 0; p <= 10; p++){
+    if(p % 2 == 0){
+        console.log(p);
+    }
+}
+console.log(`----------------------`);
+
+let frutas = ["maça", "banana", "uva", "tomate"];
+
+frutas.push("morango"); 
+frutas.unshift("uva");  
+
+for(i = 0; i < frutas.length; i++){
+    console.log(`Fruta ${i+1}: ${frutas[i]}`);
+  console.log("Eu gosto de " + frutas[i]);
+}
