@@ -18,8 +18,8 @@ console.log("-------------------------------------------------------------------
 // Usando em uma condicional
 
 if(`Gosta de pizza?`){
-    console.log(`Você é team pizza 🤪`)
+    console.log(`Você é team pizza 🤪`);
 }else{
-    console.log(`Você NÃO GOSTA DE PIZZA?????? 😱`)
+    console.log(`Você NÃO GOSTA DE PIZZA?????? 😱`);
 }
 
