@@ -5,7 +5,7 @@ while (i < 5) {
   i++;
 }
 
-console.log(`---------------------`)
+console.log(`---------------------`);
 
 // for - versão mais compacta
 
@@ -13,7 +13,7 @@ for (let jao = 0; jao < 5; jao++) {
   console.log(jao);
 }
 
-console.log(`---------------------`)
+console.log(`---------------------`);
 
 // Percorrendo um array
 let cores = ["azul", "verde", "vermelho"];
